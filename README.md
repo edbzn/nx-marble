@@ -1,38 +1,57 @@
-# marble-schematics
+# Marble.js Schematics
 
-Schematics for Marble.js
+Schematics collection for Marble.js
+
+## Features
+
+- 🆕 Create Marble.js projects with ease
+- 🔨 Scaffold main building blocks efficiently
+- 💎 Provide good practices
+- 🌀 Enforce consistency
 
 ## Getting started
 
-⚙ [Yarn](https://yarnpkg.com/en/docs/install#mac-stable) is required for the scripts. Make sure it's installed on your machine.
+⬇ Install dependencies
 
-⬇ **Install** the dependencies for the schematic and the sandbox application
+```bash
+yarn add @angular-devkit/schematics-cli marble-schematics -D
+```
+
+🏃 Run the schematic
+
+```bash
+npx -p @angular-devkit/schematics schematics marble-schematics:<SchematicName>
+```
+
+🔎 List all available schematics
+
+```bash
+npx -p @angular-devkit/schematics schematics --list-schematics marble-schematics:
+```
+
+## Contributing
+
+⬇ Install the dependencies for the schematic and the sandbox application
 
 ```bash
 yarn && cd sandbox && yarn && cd ..
 ```
 
-🖇 **Link** the schematic in the sandbox to run locally
+🖇 Link the schematic in the sandbox to run locally
 
 ```bash
 yarn link:schematic
 ```
 
-🏃 **Run** the schematic
+🏃 Run the schematic
 
 ```bash
-yarn build:clean:launch
-```
-
-To execute an example schematic, make sure you've ran the **Install** and **Link** steps above. Then run the following and inspect the changed files.
-
-```bash
-git checkout component-license && yarn build:clean:launch
+yarn build:clean:launch marble-schematics:<SchematicName>
 ```
 
 ## E2E testing
 
-Execute the schematic against the sandbox. Then run linting, unit & e2e tests and a prod build in the sandbox.
+Execute the schematic against the sandbox.sandbox.
 
 ```bash
 yarn test

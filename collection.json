@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "new": {
+      "aliases": ["n"],
+      "factory": "./src/new",
+      "schema": "./src/new/schema.json",
+      "description": "Adds initial setup for Marble.js"
+    },
+
+    "effect": {
+      "aliases": ["e"],
+      "factory": "./src/effect",
+      "schema": "./src/effect/schema.json",
+      "description": "Adds Effect"
+    }
+  }
+}
