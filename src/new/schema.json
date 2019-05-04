@@ -4,19 +4,19 @@
   "title": "Marble.js New Options Schema",
   "type": "object",
   "properties": {
-    "directory": {
-      "type": "string",
-      "description": "The directory name to create the project in."
-    },
     "name": {
-      "description": "The name of the new workspace and initial project.",
+      "description": "The name of the new project.",
       "type": "string",
       "format": "html-selector",
       "$default": {
         "$source": "argv",
         "index": 0
       },
-      "x-prompt": "What name would you like to use for the initial project?"
+      "x-prompt": "What name would you like to use for this project?"
+    },
+    "directory": {
+      "type": "string",
+      "description": "The directory name to create the project in."
     }
   },
   "required": ["name"]

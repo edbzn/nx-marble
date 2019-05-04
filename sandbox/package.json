@@ -1,8 +1,0 @@
-{
-  "name": "marble-schematics-sandbox",
-  "version": "1.0.0",
-  "description": "Schematics sandbox for Marble.js",
-  "repository": "git@github.com:Edouardbozon/marble-schematics.git",
-  "author": "Koala <bozonedouard@gmail.com>",
-  "license": "MIT"
-}
