@@ -19,10 +19,10 @@ module.exports = {
     'js',
     'json'
   ],
-  setupTestFrameworkScriptFile: "./src/tests/setup.ts",
+  setupFilesAfterEnv: ["./src/tests/setup.ts"],
   globals: {
     'ts-jest': {
-      tsConfigFile: './tsconfig.json',
+      tsConfig: './tsconfig.json',
     }
   },
   moduleNameMapper: {

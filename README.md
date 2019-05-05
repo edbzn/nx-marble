@@ -46,7 +46,7 @@ yarn link:schematic
 🏃 Run the schematic
 
 ```bash
-yarn build:clean:launch marble-schematics:<SchematicName>
+yarn build:clean:execute marble-schematics:<SchematicName>
 ```
 
 ## E2E testing

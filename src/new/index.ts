@@ -30,7 +30,10 @@ export default function(options: NewOptions): Rule {
     let packageTask;
     if (!options.skipInstall) {
       packageTask = context.addTask(
-        new NodePackageInstallTask(options.directory)
+        new NodePackageInstallTask({
+          workingDirectory: options.directory,
+          packageManager: "yarn"
+        })
       );
     }
     if (!options.skipGit) {
@@ -51,7 +54,6 @@ export default function(options: NewOptions): Rule {
       apply(url("./files"), [
         applyTemplates({
           utils: strings,
-          directory: options.directory,
           ...options
         }),
         move(options.directory || options.name)
