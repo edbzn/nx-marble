@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "id": "SchematicsNgRxEffect",
-  "title": "NgRx Effect Options Schema",
+  "id": "SchematicsEffect",
+  "title": "Marble.js Effect Options Schema",
   "type": "object",
   "properties": {
     "name": {
@@ -10,20 +10,69 @@
       "$default": {
         "$source": "argv",
         "index": 0
-      }
+      },
+      "x-prompt": "What name would you want to use for this effect?"
     },
-    "methods": {
-      "type": "array",
-      "format": "path",
-      "description": "The methods",
-      "visible": false
+    "method": {
+      "description": "The HTTP method of the effect.",
+      "type": "string",
+      "enum": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+      "default": "GET",
+      "x-prompt": {
+        "message": "Which HTTP method would you want to use?",
+        "type": "list",
+        "items": [
+          { "value": "GET", "label": "GET" },
+          {
+            "value": "POST",
+            "label": "POST"
+          },
+          {
+            "value": "PUT",
+            "label": "PUT"
+          },
+          {
+            "value": "PATCH",
+            "label": "PATCH"
+          },
+          {
+            "value": "DELETE",
+            "label": "DELETE"
+          }
+        ]
+      }
     },
     "path": {
       "type": "string",
       "format": "path",
-      "description": "The path to create the component.",
+      "description": "The HTTP path of the effect.",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "What HTTP path would you want to use?"
+    },
+    "createRouteCombination": {
+      "type": "boolean",
+      "description": "Create route combination.",
+      "default": true,
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "Would you want to create route combination?"
+    },
+    "routeCombinationPath": {
+      "type": "string",
+      "format": "path",
+      "description": "Add the effect to an existing route combination."
+    },
+    "directory": {
+      "type": "string",
+      "format": "path",
+      "description": "The path to create the effect?",
       "visible": false
     }
   },
-  "required": []
+  "required": ["name", "path", "method"]
 }

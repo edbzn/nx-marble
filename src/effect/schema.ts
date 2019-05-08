@@ -1,16 +1,31 @@
 export interface Schema {
   /**
-   * The name of the component.
+   * The name of the effect.
    */
   name: string;
 
   /**
-   * HTTP methods
+   * HTTP method for the effect.
    */
-  methods: string[];
+  method: string;
+
+  /**
+   * HTTP path for the effect.
+   */
+  path: string;
+
+  /**
+   * Wether route combination needs to be created along the effect.
+   */
+  createRouteCombination: boolean;
+
+  /**
+   * Append the effect to a specific route combination.
+   */
+  routeCombinationPath?: string;
 
   /**
    * The path to create the effect.
    */
-  path?: string;
+  directory?: string;
 }
