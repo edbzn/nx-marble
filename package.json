@@ -25,9 +25,9 @@
   "dependencies": {
     "@angular-devkit/core": "7.3.8",
     "@angular-devkit/schematics": "7.3.8",
-    "@types/jasmine": "3.3.12",
+    "@types/jasmine": "3.4.6",
     "@types/node": "12.0.0",
-    "jasmine": "3.4.0",
+    "jasmine": "3.5.0",
     "typescript": "3.4.5"
   },
   "devDependencies": {
