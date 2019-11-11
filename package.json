@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@angular-devkit/schematics-cli": "^0.13.8",
-    "husky": "2.2.0",
+    "husky": "3.0.9",
     "lint-staged": "8.1.6",
     "prettier": "1.17.0"
   },
