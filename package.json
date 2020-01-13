@@ -23,15 +23,15 @@
     "Marble.js"
   ],
   "dependencies": {
-    "@angular-devkit/core": "7.3.8",
-    "@angular-devkit/schematics": "7.3.8",
+    "@angular-devkit/core": "7.3.9",
+    "@angular-devkit/schematics": "7.3.9",
     "@types/jasmine": "3.3.12",
     "@types/node": "12.12.24",
     "jasmine": "3.4.0",
     "typescript": "3.4.5"
   },
   "devDependencies": {
-    "@angular-devkit/schematics-cli": "0.13.8",
+    "@angular-devkit/schematics-cli": "0.803.22",
     "husky": "2.2.0",
     "lint-staged": "8.1.6",
     "prettier": "1.17.0"
