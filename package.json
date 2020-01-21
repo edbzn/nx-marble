@@ -1,11 +1,12 @@
 {
   "name": "marble-schematics",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Schematics collection for Marble.js",
   "repository": "git@github.com:Edouardbozon/marble-schematics.git",
-  "author": "Koala <bozonedouard@gmail.com>",
+  "author": "Edouard Bozon <bozonedouard@gmail.com>",
   "license": "MIT",
   "schematics": "./collection.json",
+  "private": false,
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "build:clean:execute": "yarn build && yarn clean:execute",
@@ -20,7 +21,8 @@
   },
   "keywords": [
     "schematics",
-    "Marble.js"
+    "Marble.js",
+    "CLI"
   ],
   "dependencies": {
     "@angular-devkit/core": "8.3.22",
