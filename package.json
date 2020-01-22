@@ -33,7 +33,7 @@
     "typescript": "3.7.4"
   },
   "devDependencies": {
-    "@angular-devkit/schematics-cli": "^0.803.22",
+    "@angular-devkit/schematics-cli": "0.803.22",
     "husky": "4.0.7",
     "lint-staged": "9.5.0",
     "prettier": "1.19.1"
