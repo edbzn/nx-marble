@@ -20,23 +20,23 @@
     "@marblejs/middleware-io": "2.3.1",
     "@marblejs/middleware-jwt": "2.3.1",
     "@marblejs/middleware-logger": "2.3.1",
-    "@types/faker": "^4.1.9",
-    "@types/joi": "^14.3.4",
-    "@types/mongoose": "^5.5.41",
-    "@types/node": "^13.1.8",
-    "@types/uuid": "^3.4.6",
-    "chalk": "^3.0.0",
-    "faker": "^4.1.0",
-    "mongoose": "^5.8.9",
-    "reflect-metadata": "^0.1.13",
-    "rxjs": "~6.5.4",
-    "tsconfig-paths": "^3.9.0",
-    "typegoose": "^5.9.1",
-    "uuid": "^3.4.0"
+    "@types/faker": "4.1.9",
+    "@types/joi": "14.3.4",
+    "@types/mongoose": "5.5.41",
+    "@types/node": "13.1.8",
+    "@types/uuid": "3.4.6",
+    "chalk": "3.0.0",
+    "faker": "4.1.0",
+    "mongoose": "5.8.9",
+    "reflect-metadata": "0.1.13",
+    "rxjs": "6.5.4",
+    "tsconfig-paths": "3.9.0",
+    "typegoose": "5.9.1",
+    "uuid": "3.4.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2",
-    "ts-node": "^8.6.2",
-    "typescript": "~3.7.5"
+    "nodemon": "2.0.2",
+    "ts-node": "8.6.2",
+    "typescript": "3.7.5"
   }
 }

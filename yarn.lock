@@ -13,7 +13,7 @@
     rxjs "6.4.0"
     source-map "0.7.3"
 
-"@angular-devkit/schematics-cli@^0.803.22":
+"@angular-devkit/schematics-cli@0.803.22":
   version "0.803.22"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics-cli/-/schematics-cli-0.803.22.tgz#ccf92942be294263169b92521fb7fe316dae31a0"
   integrity sha512-eaPoPetiycMyUx5di62q9PY6Z9X2nwJ4radXVYpHTJmbUPLLzAPs/X+DeyXLir9jY26eC8FWUwWu438aUTTkuQ==
