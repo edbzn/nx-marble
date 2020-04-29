@@ -24,7 +24,7 @@
     "@types/joi": "14.3.4",
     "@types/mongoose": "5.5.41",
     "@types/node": "13.1.8",
-    "@types/uuid": "3.4.6",
+    "@types/uuid": "7.0.3",
     "chalk": "3.0.0",
     "faker": "4.1.0",
     "mongoose": "5.8.9",
@@ -32,7 +32,7 @@
     "rxjs": "6.5.4",
     "tsconfig-paths": "3.9.0",
     "typegoose": "5.9.1",
-    "uuid": "3.4.0"
+    "uuid": "7.0.3"
   },
   "devDependencies": {
     "nodemon": "2.0.2",
