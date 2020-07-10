@@ -49,10 +49,10 @@
     "@types/jsonwebtoken" "^7.2.8"
     jsonwebtoken "^8.3.0"
 
-"@marblejs/middleware-logger@2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@marblejs/middleware-logger/-/middleware-logger-2.3.1.tgz#db7cd1b2ad8c7e0048e30d45eec9e1028476221d"
-  integrity sha512-/OpX32EsjKTWNJeudMMZeiY6ciiVtpKCT9+MMzOh2Nrqu11p6CgD9TAUgKtY0PFt9P0Kpp8EWrxouPzKljmJxg==
+"@marblejs/middleware-logger@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@marblejs/middleware-logger/-/middleware-logger-3.3.0.tgz#621064a17b682bae375d08305299c078a6dc36b9"
+  integrity sha512-p9UbBgWU4mBfdjo7iTbw2qffIlqx6sBRHxKggIKp/IDAdM5G1Sf2GSxWSGaOMjsUcz+oBwPsu/Jp2GmhS2wyfg==
   dependencies:
     chalk "^2.4.1"
 
