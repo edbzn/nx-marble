@@ -18,10 +18,10 @@
     qs "^6.6.0"
     uuid "^3.3.2"
 
-"@marblejs/middleware-body@2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@marblejs/middleware-body/-/middleware-body-2.3.1.tgz#4097072fb52d39802195344bac4236afe4da24fb"
-  integrity sha512-bWQd1nPTkNjnAflvaCgYeGYPbi0J8wMLeLMIyUyzhCYuQhT5HtUcF33Bb1hAvR92JSmK3/oEC5UHN5gYpYlQjw==
+"@marblejs/middleware-body@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@marblejs/middleware-body/-/middleware-body-3.3.0.tgz#46486a6b5007f7d730a183ff31bf44d359278aba"
+  integrity sha512-yRtjHESDNze33KMUYs5867/k+cPeuDAKTbrjZp8XI0ZONxtWqbcJZxM7BIqlSPgQVKtKKOu0MORNXId499o4iQ==
   dependencies:
     "@types/qs" "^6.5.1"
     "@types/type-is" "~1.6.2"
