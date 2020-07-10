@@ -41,10 +41,10 @@
     "@types/json-schema" "^7.0.3"
     io-ts "1.8.5"
 
-"@marblejs/middleware-jwt@2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@marblejs/middleware-jwt/-/middleware-jwt-2.3.1.tgz#cb34a7a8f8367dd29b894fc62215422edd42fd0a"
-  integrity sha512-6IAM7Vya8k76WgJUplJEzBluCyLu3HGOPxqVIS1hHX+5q6Tlgl4O8I8a+1M6wOE54LIDlyV6qbJgq2B8xiCF6Q==
+"@marblejs/middleware-jwt@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@marblejs/middleware-jwt/-/middleware-jwt-3.3.0.tgz#751d3759ce37ce149c2a8bcbd5a9f63f8ed2e3ce"
+  integrity sha512-lcY0g/KYPrDZudMquxwJLwxB1cm4hWF4RYGJZ0+5d2Xyhxzl1UJJxkdR/ynubPcCd7CkprCDj3AZ26V5vUR/ow==
   dependencies:
     "@types/jsonwebtoken" "^7.2.8"
     jsonwebtoken "^8.3.0"
