@@ -28,10 +28,10 @@
     qs "^6.6.0"
     type-is "~1.6.16"
 
-"@marblejs/middleware-cors@2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@marblejs/middleware-cors/-/middleware-cors-2.3.1.tgz#baec8dc013b3e0840cbc706d739368d9dc771065"
-  integrity sha512-E9NEM9SDFa9XZOu+rVB9LE06EO1PTL55+MSIqIPd+bfd07ineVnAuD9z1HiWEe9pZy9Ty+wFPtING7nah3SoHA==
+"@marblejs/middleware-cors@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@marblejs/middleware-cors/-/middleware-cors-3.3.0.tgz#543c7f52639f1430a32e32e4663950566c07f8ca"
+  integrity sha512-mNjN3/gbtbLBDaFi0Bakh7fTb6MxgDFm+Fz2D0BF/D91yK5SNxWR94ZOknxY0NW0ZC7xKC1IxCIGEZrV8NuT9A==
 
 "@marblejs/middleware-io@2.3.1":
   version "2.3.1"
