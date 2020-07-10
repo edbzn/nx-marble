@@ -33,13 +33,13 @@
   resolved "https://registry.yarnpkg.com/@marblejs/middleware-cors/-/middleware-cors-2.3.1.tgz#baec8dc013b3e0840cbc706d739368d9dc771065"
   integrity sha512-E9NEM9SDFa9XZOu+rVB9LE06EO1PTL55+MSIqIPd+bfd07ineVnAuD9z1HiWEe9pZy9Ty+wFPtING7nah3SoHA==
 
-"@marblejs/middleware-io@2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@marblejs/middleware-io/-/middleware-io-2.3.1.tgz#26c9f46619057b1a9b8d5960dba81d881322b112"
-  integrity sha512-bIrCZQPCogUzu71fTIAes7BD+si0M9za8wtg4n9i3nHLy85I2tLh5U4zbzPbGxBYa7ix90lNuKsi3qpctVCWTw==
+"@marblejs/middleware-io@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@marblejs/middleware-io/-/middleware-io-3.3.0.tgz#537822f4c1efd758e6fca6096bc4a568f5c113dc"
+  integrity sha512-6R5VEsKd2rQ8CFiTkdewBhz1pwURFeknwn8+/tqWr28oOK/CmW8t6K6eQEp9e++Saz0ozAuidyE1jiSB5xwNog==
   dependencies:
     "@types/json-schema" "^7.0.3"
-    io-ts "1.8.5"
+    io-ts "^2.2.4"
 
 "@marblejs/middleware-jwt@2.3.1":
   version "2.3.1"
@@ -454,11 +454,6 @@ fp-ts@1.15.0:
   resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-1.15.0.tgz#7706d6761cc98ccbece91c2ff2e5a5b924f65f3d"
   integrity sha512-D0gnY9qnpifaqNABqSKjttOW4YVpAHK7I7hcstJllbyqS1GKzbQoAguZYr77DhXzIXnsJiqo65dCHJZq6ouxiQ==
 
-fp-ts@^1.0.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-1.13.0.tgz#004803434e6c92021232746a621d3c2429c3d5cc"
-  integrity sha512-QDPtCkuLay+dX3zinnvt0ER+j8mdWZZSpM//DIY3GycgwUTDPBKFD7CxX5DU/mIDstcWqGuuUSrMNtB6MWluCQ==
-
 fsevents@~2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.1.2.tgz#4c0a1fb34bc68e543b4b82a9ec392bfbda840805"
@@ -535,12 +530,10 @@ ini@^1.3.4, ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
-io-ts@1.8.5:
-  version "1.8.5"
-  resolved "https://registry.yarnpkg.com/io-ts/-/io-ts-1.8.5.tgz#2e102f7f518abe17b0f7e7ede0db54a4c4ddc188"
-  integrity sha512-4HzDeg7mTygFjFIKh7ajBSanoVaFryYSFI0ocdwndSWl3eWQXhg3wVR0WI+Li5Vq11TIsoIngQszVbN4dy//9A==
-  dependencies:
-    fp-ts "^1.0.0"
+io-ts@^2.2.4:
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/io-ts/-/io-ts-2.2.7.tgz#5c05477580bff4c0154b474316c8916253e87c44"
+  integrity sha512-kCusyu/Fa0oax5ue2Id/ZqVLEk5JOWyrXHcLbD4kHoVM50MhDEWUtcHlN7RrD94I8OrWILcVltM6OllnZiHJmg==
 
 is-binary-path@~2.1.0:
   version "2.1.0"
